@@ -1,0 +1,7 @@
+(gemma3_train_venv) saiteja@Mac gemma3_local_training % python3 train_gemma3.py
+Loading recession data...
+Saving 20000 training examples to training_data.jsonl...
+
+Training data and Modelfile created.
+To create the fine-tuned model, run:
+ollama create recession-analyst-ft -f ./Modelfile
