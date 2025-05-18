@@ -1,5 +1,6 @@
-torch
+datasets
 transformers
-fastapi
-uvicorn
-pydantic
+accelerate>=0.26.0
+pandas
+torch==2.5.1+cu121
+datasets
