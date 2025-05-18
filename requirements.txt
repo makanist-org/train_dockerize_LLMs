@@ -2,5 +2,6 @@ datasets
 transformers
 accelerate>=0.26.0
 pandas
-torch==2.5.1+cu121
-datasets
+torch>=2.5.0
+
+# for MAcbook pip install torch torchvision torchaudio
